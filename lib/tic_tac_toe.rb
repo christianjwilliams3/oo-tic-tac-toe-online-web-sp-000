@@ -102,4 +102,13 @@ def draw?
     return false
   end
 end  
+
+def over?
+  if won? || full? || draw?(board)
+    return true
+  else
+    return false
+  end
+end
+
 end

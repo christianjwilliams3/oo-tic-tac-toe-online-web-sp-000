@@ -24,10 +24,9 @@ def display_board
 end
   
 def input_to_index(user_input)
-  user_input = user_input.to_i - 1
+  user_input = user_input.to_i - 1 
   return user_input
 end
 
-def move
 
 end

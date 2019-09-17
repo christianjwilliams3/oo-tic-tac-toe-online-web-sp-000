@@ -36,7 +36,6 @@ def position_taken?(location)
 end
 
 def valid_move?(index)
-  index = index.to i - 1
   index.between?(0, 8) && !position_taken(index)
 end
 end

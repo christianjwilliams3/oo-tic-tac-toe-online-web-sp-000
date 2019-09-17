@@ -32,6 +32,6 @@ def move(index, current_player)
 end
 
 def position_taken?(board, index)
-  @board[location] || board[index] == " ")
+  @board[location] ! = " "board[index] == " ")
 end
 end

@@ -28,7 +28,7 @@ def input_to_index(user_input)
 end
 
 def move(index, character="X")
-  input 
+  index = input_to_index
   
 end
 end

@@ -34,4 +34,7 @@ end
 def position_taken?(location)
   @board[location] != " " && @board[location] != ""
 end
+
+def valid_move?(index)
+  
 end

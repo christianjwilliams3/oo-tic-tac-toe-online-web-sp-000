@@ -4,5 +4,5 @@ class TicTacToe
    @board = board || Array.new(9, " ")
   end 
 
-  def win_combinations()
+  def win_combinati
 end

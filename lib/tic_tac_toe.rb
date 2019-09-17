@@ -15,6 +15,6 @@ end
     [6,4,2]
   ]
 
-
+def display_board
 
 end

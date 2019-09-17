@@ -29,7 +29,6 @@ end
 
 def move(index, character="X")
   index = input_to_index(user_input)
-  @board[index]=c
-  
+  @board[index]= character
 end
 end

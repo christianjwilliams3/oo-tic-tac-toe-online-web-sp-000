@@ -40,7 +40,7 @@ end
     if position.between?(0,8) && !position_taken?(position)
       false
     else
-      false
+      true
     end
   end
 end
